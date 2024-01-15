@@ -344,3 +344,76 @@
     width: 573px;
     
 }
+
+.Deals-Discounts{
+    max-width: 1250px;
+    margin: 0 auto;
+    margin-top: 48px;
+    
+
+}
+.Discounts-banner{
+    position: relative;
+    margin-top: 30px;
+}
+.banner-content{
+    padding: 50px;
+    width: 579px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.80);
+    position: absolute;
+    bottom: 80px;
+    left: 530px;
+}
+.day-night{
+    display: flex;
+    gap: 30px;
+}
+.frame-1{
+    display: flex;
+    gap: 5px;
+    
+}
+.frame-1 img{
+    width: 24px;
+    height: 24px;
+}
+.frame-1 p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+.Tour-To-Satorini h3{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 26px;
+}
+.Tour-To-Satorini p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    margin:16px 0;
+    width: 452px;
+}
+.price1{
+    color: #FF5400;
+    margin-bottom: 24px;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+}
+.Discounts-banner02{
+    position: relative;
+    margin-top: 30px;
+}
+.banner-content02{
+    padding: 50px;
+    width: 579px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.80);
+    position: absolute;
+    bottom: 80px;
+    left: 60px;
+}
