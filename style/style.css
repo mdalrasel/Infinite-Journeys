@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Mulish:wght@300;400;500;600;700;800;900&family=Open+Sans:wght@700&family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:ital,wght@1,700&family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Mulish', sans-serif;
+}
+/* --nav-section-start-- */
+.nav-section{
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+}
+.nav-container{
+    min-width: 50px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 52px;
+}
+.nav-container img{
+    width: 48px;
+}
+.nav-container h2{
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+.nav-container h2 >span{
+    color: #FF5400;
+}
+.nav-item {
+    width: 50%;
+    margin-top: 63px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+   
+}
+#home{
+    color: #FF5400;
+    font-weight: 700;
+}
+.nav-item a{
+    text-decoration: none;
+    color:#424247;
+    font-size: 18px;
+    font-weight: 400;
+}
+/* --nav-section-end-- */
