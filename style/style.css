@@ -16,7 +16,6 @@
     display: flex;
 }
 .nav-container{
-    min-width: 50px;
     width: 50%;
     display: flex;
     align-items: center;
@@ -64,12 +63,8 @@
     text-align: center;
     margin-top: 60px;
     border-radius: 16px;
-    
-
-    /* background-attachment: fixed; */
 }
 .Explore-travel h2{
-    /* padding-top: 106px; */
     color: #FFF;
     font-size: 64px;
     font-weight: 800;
@@ -97,6 +92,7 @@
     height: 52px;
     border-radius: 8px;
     background: #FFF;
+    border: 0;
     
 }
 .Explore-travel-input button{
@@ -107,5 +103,46 @@
     background: #FF5400;
     padding: 16px ;
     width: 174px;
-    border: color 0;;
+    border: 0;
+}
+
+
+.popular-tours{
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.popular-tours-content{
+    width: 50%;
+    justify-content: left;
+}
+
+.popular-tours-content h3{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.common-content{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    width: 577px;
+}
+.btn-primary{
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 14px 30px;
+    border: 0;
+}
+.popular-tours-img{
+    size: cover;
+    width: 540px;
+    border-radius: 10px;
+
 }
