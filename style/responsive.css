@@ -13,7 +13,7 @@
     .Explore-travel{
         margin: 20px;
     }
-    .Explore-travel-input{
+    .Explore-travel-input ,.m-i, .S-N-K, .b-bban, .Service{
         flex-direction: column;
         gap: 15px;
        

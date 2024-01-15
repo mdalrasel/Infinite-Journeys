@@ -146,3 +146,201 @@
     border-radius: 10px;
 
 }
+
+.Destination{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.Destination-content{
+    text-align: center;
+    margin-top: 100px;
+}
+.Destination-content h2{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.Destination-content p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+.Destination{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.m-i{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    /* width: 100%; */
+}
+.Maldives{
+    /* width: 50%;
+    size: cover;
+    display: block; */
+    position: relative;
+}
+.M-name{
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    position: absolute;
+    bottom: 120px;
+    left: 220px;
+}
+.Indonesia{
+    /* width: 50%;
+    size: cover; */
+    position: relative;
+}
+.I-name{
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    position: absolute;
+    bottom: 120px;
+    left: 220px;
+}
+.S-N-K{
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.Srilanka{
+    position: relative;
+}
+.S-name{
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    position: absolute;
+    bottom: 120px;
+    left: 130px;
+}
+.North-America{
+    position: relative;
+}
+.N-name{
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    position: absolute;
+    bottom: 120px;
+    left: 130px;
+} 
+.Kashmir{
+    position: relative;
+}
+.K-name{
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    position: absolute;
+    bottom: 120px;
+    left: 80px;
+} 
+.b-bban{
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+.Bangladesh{
+    position: relative;
+}
+.B-name{
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    position: absolute;
+    bottom: 150px;
+    left: 160px;  
+}
+.Bandarban{
+    position: relative;
+}
+.B-ban-name{
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    position: absolute;
+    bottom: 120px;
+    left: 250px;      
+}
+.Choose-Us{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.Choose-Us-content{
+    text-align: center;
+    margin-top: 100px;
+}
+.Choose-Us-content h2{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.Choose-Us-content p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 24px;
+}
+.Service{
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    margin-top: 48px;
+}
+.Hotels{
+    width: 50%;
+    padding: 30px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.map{
+    width: 50%;
+    padding: 30px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+#Service img{
+    width: 64px;
+    height: 64px;
+}
+#Service h3{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 32px;
+}
+#Service p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+.Best-Price{
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+   
+}
+
+.price{
+    
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 30px;
+    width: 573px;
+    
+}
