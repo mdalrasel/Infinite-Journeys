@@ -38,8 +38,7 @@
     margin-top: 63px;
     display: flex;
     justify-content:space-around;
-    align-items: center;
-   
+    align-items: center; 
 }
 #home{
     color: #FF5400;
@@ -52,7 +51,7 @@
     font-weight: 400;
 }
 /* --nav-section-end-- */
-
+/* --Explore-travel-section-start-- */
 .Explore-travel{
     max-width: 1250px;
     margin: 0 auto;
@@ -68,7 +67,6 @@
     color: #FFF;
     font-size: 64px;
     font-weight: 800;
-
 }
 .Explore-travel p{
     color: #FFF;
@@ -81,9 +79,7 @@
     background: rgba(255, 255, 255, 0.30);
     padding: 16px;
     display: inline-flex;
-    border-radius: 8px;
-   
-    
+    border-radius: 8px;    
 }
 .Explore-travel-input input{
     padding: 16px;
@@ -92,8 +88,7 @@
     height: 52px;
     border-radius: 8px;
     background: #FFF;
-    border: 0;
-    
+    border: 0;  
 }
 .Explore-travel-input button{
     color: #FFF;
@@ -105,8 +100,7 @@
     width: 174px;
     border: 0;
 }
-
-
+/* --Explore-travel-section-end--  */
 .popular-tours{
     max-width: 1250px;
     margin: 0 auto;
@@ -116,9 +110,7 @@
 }
 .popular-tours-content{
     width: 50%;
-    justify-content: left;
 }
-
 .popular-tours-content h3{
     color: #131318;
     font-size: 40px;
@@ -129,7 +121,7 @@
     color: rgba(19, 19, 24, 0.70);
     font-size: 16px;
     font-weight: 400;
-    width: 577px;
+    width: 500px;
 }
 .btn-primary{
     border-radius: 8px;
@@ -139,14 +131,12 @@
     font-weight: 600;
     padding: 14px 30px;
     border: 0;
+    margin-bottom: 40px;
 }
 .popular-tours-img{
-    size: cover;
-    width: 540px;
+    width: 600px;
     border-radius: 10px;
-
 }
-
 .Destination{
     max-width: 1250px;
     margin: 0 auto;
@@ -174,13 +164,10 @@
 .m-i{
     display: flex;
     justify-content: space-between;
+    gap: 20px;
     margin-bottom: 24px;
-    /* width: 100%; */
 }
 .Maldives{
-    /* width: 50%;
-    size: cover;
-    display: block; */
     position: relative;
 }
 .M-name{
@@ -189,11 +176,9 @@
     font-weight: 800;
     position: absolute;
     bottom: 120px;
-    left: 220px;
+    left: 250px;
 }
 .Indonesia{
-    /* width: 50%;
-    size: cover; */
     position: relative;
 }
 .I-name{
@@ -202,11 +187,9 @@
     font-weight: 800;
     position: absolute;
     bottom: 120px;
-    left: 220px;
+    left: 250px;
 }
 .S-N-K{
-    max-width: 1250px;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
@@ -331,30 +314,28 @@
 .Best-Price{
     display: flex;
     justify-content: center;
-    margin-top: 24px;
-   
+    margin-top: 24px; 
 }
-
 .price{
     
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
     padding: 30px;
-    width: 573px;
-    
+    width: 573px;    
 }
 
 .Deals-Discounts{
     max-width: 1250px;
     margin: 0 auto;
     margin-top: 48px;
-    
-
 }
 .Discounts-banner{
     position: relative;
     margin-top: 30px;
+}
+.Discounts-banner img{
+    width: 100%;  
 }
 .banner-content{
     padding: 50px;
@@ -363,7 +344,7 @@
     background: rgba(255, 255, 255, 0.80);
     position: absolute;
     bottom: 80px;
-    left: 530px;
+    left: 580px;
 }
 .day-night{
     display: flex;
@@ -408,6 +389,9 @@
     position: relative;
     margin-top: 30px;
 }
+.Discounts-banner02 img{
+    width: 100%;
+}
 .banner-content02{
     padding: 50px;
     width: 579px;
@@ -415,5 +399,158 @@
     background: rgba(255, 255, 255, 0.80);
     position: absolute;
     bottom: 80px;
-    left: 60px;
+    left: 80px;
+}
+.Discounts-banner-btn {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.Simple-Place{
+max-width: 1250px;
+margin: 0 auto;
+margin-top: 100px;
+display: flex;
+justify-content: space-between;
+}
+.Simple-Place-content h2{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    width: 448px;
+    margin-bottom: 24px;
+}
+.Simple-Place-content p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    width: 532px;
+    margin-bottom: 24px;
+}
+.Simple-Place-content li{
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+    width: 518px;
+    margin-bottom: 20px;
+}
+.Simple-Place-content button{
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 14px 40px;
+    color: #FFF;
+    border: 0;
+}
+.Subscribe{
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.Newsletter{
+    padding: 40px;
+    border: 1px solid #FF5400;
+}
+.Newsletter div >h3{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+.Newsletter div > p{
+    margin: 20px 0;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+.input{
+    display: grid;
+    grid-template-columns: 1fr;   
+}
+.input input{
+    padding: 16px;
+    border-radius: 8px;
+    border: 0;
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 20px;
+}
+.Subscribe-btn {
+    margin-top: 24px;
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+    border: 0;
+}
+.offer{
+    position: relative;
+    transform : rooted (-20deg);
+}
+.offer img{
+    width: 100%;
+    height: 100%;    
+}
+.offer-title{
+    border-radius: 16px;
+    background: #FF5400;
+    width: 250px;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    bottom: 65px;
+    left: 300px; 
+    transform: rotate(-30deg); 
+}
+.offer-title p{
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+.offer-title h3{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 800;    
+}
+.footer{
+    background: rgba(19, 19, 24, 0.05);
+    margin: 0 auto;
+    margin-top: 110px;
+    padding: 110px 0;
+}
+.foot-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-container img{
+    width: 40px;
+}
+.foot-container h2{
+    color:#131318;
+    font-size: 32px;
+    font-weight: 800;
+}
+.foot-container h2>span{
+    color: #FF5400;
+}
+.foot-p{
+    margin-top: 15px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.icon{
+    margin-top: 20px;
+    text-align: center;   
+}
+.icon img{
+    margin-right: 16px;
+}
+.hr {
+    margin: 50px 0;
 }

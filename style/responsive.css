@@ -1,8 +1,8 @@
 @media screen and (max-width:600px) {
-    .nav-section ,.popular-tours{
+    
+    .nav-section ,.popular-tours ,.Subscribe{
         flex-direction: column;
-        align-items: center;
-        
+        align-items: center;  
     }
     .nav-item {
         flex-direction: column;
@@ -10,29 +10,72 @@
         gap: 10px;
         margin-top: 10;
     }
-    .Explore-travel{
-        margin: 20px;
-    }
-    .Explore-travel-input ,.m-i, .S-N-K, .b-bban, .Service{
+    .Explore-travel-input , .Simple-Place,.m-i, .S-N-K, .b-bban, .Service{
         flex-direction: column;
-        gap: 15px;
-       
+        width: 100%;
+        width: 600px;
+        gap: 15px;   
     }
-    .Explore-travel-input input,.Explore-travel-input button {
+    .Explore-travel{
+        margin: 20px 20px; 
+        margin-bottom: -250px;
+    }
+    .Explore-travel-input input,.Explore-travel-input button{
         width: 300px;
         padding: 30px;
     }
-    .popular-tours{
+    .Discounts-banner-btn ,.popular-tours-img{
+        margin-bottom: -100px;
+    }
+    .popular-tours-content{
         width: 100%;
+        margin-top: 200px;
     }
-    .common-content{
-        justify-content:left;
-        padding: 0 20px;
-        width: 335px;
+    .Bandarban img ,.Kashmir img ,.North-America img ,.Srilanka img ,.Indonesia img ,.Maldives img ,.Bangladesh img ,  .popular-tours-img img ,.Discounts-banner img ,.banner-content ,.Discounts-banner02 img {
+        width: 100%;
+        height: 300px;
+        width: 550px;
+        margin: 20px;
     }
-    .popular-tours-img{
-        margin-top: 40px;
+    .Choose-Us-content ,#Service ,.Subscribe ,.offer {
+        width: 550px;
+        margin: 10px 20px;
     }
+    .Best-Price{
+        flex-direction: column;
+    }
+    .footer ,.Destination-content ,.Choose-Us-content ,.Simple-Place-content ,.popular-tours-content ,.Explore-travel{
+        padding: 20px 50px;
+    }
+    .Maldives ,.Indonesia ,.Srilanka ,.North-America ,.Kashmir ,.Bangladesh ,.Bandarban{
+        position: relative;
+    }
+    .M-name ,.I-name{
+        position:absolute;
+        bottom: 160px;
+    }
+    .S-name ,.K-name{
+        position:absolute;
+        left: 250px;
+        bottom: 160px;
+    }
+    .N-name{
+        position:absolute;
+        left: 200px;
+        bottom: 160px;
+    }
+    .B-name, .B-ban-name{
+        position:absolute;
+        bottom: 160px;
+        left: 220px;
+    }
+    .banner-content ,.banner-content02{
+        display: none;   
+    }
+    
+
+    
+   
     
     
 }
